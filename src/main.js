@@ -9,7 +9,7 @@ const closeNav = document.querySelector(".closebtn");
 openNav.addEventListener("click", open);
 closeNav.addEventListener("click", close);
 function open() {
-  document.getElementById("mySidepanel").style.width = "250px";
+  document.getElementById("mySidepanel").style.width = "450px";
 }
 
 /* Set the width of the sidebar to 0 (hide it) */
