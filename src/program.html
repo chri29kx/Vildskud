@@ -6,5 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="#">Program</a>
+        <a href="#">Events</a>
+
+        <div class="subnav">
+          <button class="subnavbtn">
+            Om os <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="subnav-content">
+            <a href="#company">Vær med</a>
+            <a href="#team">Kontakt</a>
+            <a href="#careers">Om Vildskud</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="openbtn" onclick="openNav()">&#9776;</button>
+      <h2>Collapsed Sidepanel</h2>
+      <p>Content...</p>
+    </header>
+    <main>
+      <section>
+        <h2 class="text-3xl text-black">Se program</h2>
+        <table></table>
+      </section>
+    </main>
+  </body>
 </html>
