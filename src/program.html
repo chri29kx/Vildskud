@@ -9,9 +9,7 @@
   <body>
     <header>
       <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
         <a href="#">Program</a>
         <a href="#">Events</a>
 
@@ -26,16 +24,20 @@
           </div>
         </div>
       </div>
-
-      <button class="openbtn" onclick="openNav()">&#9776;</button>
-      <h2>Collapsed Sidepanel</h2>
-      <p>Content...</p>
+      <div id="open">
+        <button class="openbtn">&#9776; toogle</button>
+        <h2>Collapsed Sidepanel</h2>
+        <p>Content...</p>
+      </div>
     </header>
     <main>
-      <section>
+      <section
+        class="h-screen bg-[url('/img/splash.webp')] bg-cover bg-[center_left_-12rem] md:bg-[center_left]"
+      >
         <h2 class="text-3xl text-black">Se program</h2>
         <table></table>
       </section>
     </main>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
