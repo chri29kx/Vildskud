@@ -7,33 +7,31 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn">&times;</a>
-        <a href="#">Program</a>
-        <a href="#">Events</a>
-
-        <div class="subnav">
-          <button class="subnavbtn">
-            Om os <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="subnav-content">
-            <a href="#company">Vær med</a>
-            <a href="#team">Kontakt</a>
-            <a href="#careers">Om Vildskud</a>
-          </div>
-        </div>
-      </div>
-      <div id="open">
-        <button class="openbtn">&#9776; toogle</button>
-        <h2>Collapsed Sidepanel</h2>
-        <p>Content...</p>
-      </div>
-    </header>
     <main>
       <section
         class="h-screen bg-[url('/img/splash.webp')] bg-cover bg-[center_left_-12rem] md:bg-[center_left]"
       >
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn"
+            ><img src="/img/x.svg" alt=""
+          /></a>
+          <a href="#">Program</a>
+          <a href="#">Events</a>
+
+          <div class="subnav">
+            <button class="subnavbtn">Om os</button>
+            <div class="subnav-content">
+              <a href="#company">Vær med</a>
+              <a href="#team">Kontakt</a>
+              <a href="#careers">Om Vildskud</a>
+            </div>
+          </div>
+        </div>
+        <div id="open">
+          <button class="openbtn">
+            <img src="/img/menu.svg" alt="" />
+          </button>
+        </div>
         <h2 class="text-3xl text-black">Se program</h2>
         <table></table>
       </section>
