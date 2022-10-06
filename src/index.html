@@ -11,40 +11,59 @@
       <!-- logo -->
       <!-- navigation her -->
     </header>
-    <div>
+    <div class="">
       <!-- splashfoto her -->
-      <img class="h-screen w-auto" src="img/splash.webp" alt="Splashfoto" />
+
+      <!-- <img class="h-screen w-auto" src="img/splash.webp" alt="Splashfoto" /> -->
     </div>
     <main>
-      <div class="">
-        <!-- artist billede her -->
-        <img src="img/yoyoku.png" alt="" />
-      </div>
-      <section class="bg-lyslilla">
-        <div class="prose mx-5 py-5">
-          <h4 class="hidden">Vildskud Festival</h4>
-
-          <h4 class="float-left text-orange">Xenon - Teaterhuset</h4>
-          <h4 class="float-right text-orange">4/5. aug</h4>
-
-          <h2 class="mx-auto pt-28 text-center text-4xl text-orange">
-            Go Go <br />
-            Yo - Yoku
-          </h2>
-          <p class="mx-10 text-center text-orange">
-            En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv fri i
-            en skov.
-          </p>
-          <div class="mx-5 flex justify-end gap-8 pt-28">
-            <button class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla">
-              Info
-            </button>
-            <button class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla">
-              Billet
-            </button>
-          </div>
+      <div class="grid-cols-2 md:grid">
+        <div class="">
+          <!-- artist billede her -->
+          <img class="" src="img/yoyoku.png" alt="" />
         </div>
-      </section>
+        <section class="bg-lyslilla">
+          <div
+            class="prose mx-5 py-5 md:grid md:auto-rows-min md:grid-cols-4 md:grid-rows-3"
+          >
+            <h4 class="hidden md:col-start-4 md:inline md:justify-self-end">
+              Vildskud Festival
+            </h4>
+
+            <h4 class="float-left text-orange md:col-start-1 md:row-start-3">
+              Xenon - Teaterhuset
+            </h4>
+            <h4 class="float-right text-orange md:col-start-1 md:row-start-1">
+              4/5. aug
+            </h4>
+
+            <div
+              class="md:col-span-2 md:col-start-2 md:row-start-2 md:self-center"
+            >
+              <h2
+                class="mx-auto pt-28 text-center text-4xl text-orange md:text-6xl"
+              >
+                Go Go <br />
+                Yo - Yoku
+              </h2>
+              <p class="mx-10 text-center text-orange">
+                En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv
+                fri i en skov.
+              </p>
+            </div>
+            <div
+              class="bottom mx-5 flex justify-end gap-8 pt-28 md:col-start-4 md:row-start-3"
+            >
+              <button class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla">
+                Info
+              </button>
+              <button class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla">
+                Billet
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
     <script type="module" src="./main.js"></script>
   </body>
