@@ -23,7 +23,7 @@
 @layer components {
   /* Nav */
   .sidepanel {
-    height: 500px; /* Specify a height */
+    height: 100%; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -68,7 +68,6 @@
     right: 10px;
     font-size: 20px;
     cursor: pointer;
-    background-color: none;
     color: white;
     padding: 10px 15px;
     border: none;
