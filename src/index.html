@@ -8,8 +8,57 @@
   </head>
   <body class="">
     <header>
-      <!-- logo -->
-      <!-- navigation her -->
+      <!-- <div class="fixed top-0 md:visible">
+        <img class="h-20" src="/img/logo_beige1.svg" alt="" />
+      </div> -->
+      <div class="fixed top-4 left-4">
+        <a href="index.html">
+          <img class="h-16" src="/img/lyscreme1.svg" alt=""
+        /></a>
+      </div>
+      <div id="mySidepanel" class="sidepanel visible md:invisible">
+        <a href="javascript:void(0)" class="closebtn"
+          ><img src="/img/x.svg" alt=""
+        /></a>
+        <a href="program.html">Program</a>
+        <a href="events.html">Events</a>
+
+        <div class="subnav">
+          <button class="subnavbtn">Om os</button>
+          <div class="subnav-content">
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </div>
+      <div id="open">
+        <button class="openbtn visible md:invisible">
+          <img src="/img/menu.svg" alt="" />
+        </button>
+      </div>
+      <nav
+        id="nav_desktop"
+        class="invisible fixed top-0 right-0 mr-10 flex gap-16 md:visible md:p-7"
+      >
+        <ul class="flex gap-16">
+          <li><a class="text-lyscreme" href="program.html">Program</a></li>
+          <li>
+            <a class="text-lyscreme" href="events.html">Events</a>
+          </li>
+        </ul>
+        <div class="flex">
+          <button class="subnavbtn2 peer text-lyscreme">Om os</button>
+          <img src="/img/chevron-down-creme.svg" alt="" />
+          <div
+            class="subnav-content2 absolute mt-6 hidden gap-2 pt-2 text-lyscreme hover:grid peer-hover:grid"
+          >
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </nav>
     </header>
     <div
       class="h-screen bg-[url('/img/splash.webp')] bg-cover bg-[center_left_-12rem] md:bg-[center_left]"
