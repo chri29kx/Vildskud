@@ -11,6 +11,60 @@
     <title>Document</title>
   </head>
   <body>
+    <header class="sticky top-0">
+      <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyslilla"></div>
+      <!-- <div class="fixed top-0 md:visible">
+        <img class="h-20" src="/img/logo_beige1.svg" alt="" />
+      </div> -->
+      <div class="fixed top-4 left-4">
+        <a href="index.html">
+          <img class="h-16" src="/img/logo_moerklilla1.svg" alt=""
+        /></a>
+      </div>
+      <div id="mySidepanel" class="sidepanel visible md:invisible">
+        <a href="javascript:void(0)" class="closebtn"
+          ><img src="/img/x.svg" alt=""
+        /></a>
+        <a href="program.html">Program</a>
+        <a href="events.html">Events</a>
+
+        <div class="subnav">
+          <button class="subnavbtn">Om os</button>
+          <div class="subnav-content">
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </div>
+      <div id="open">
+        <button class="openbtn visible md:invisible">
+          <img src="/img/menulilla.svg" alt="" />
+        </button>
+      </div>
+      <nav
+        id="nav_desktop"
+        class="invisible fixed top-0 right-0 mr-10 flex gap-16 md:visible md:p-7"
+      >
+        <ul class="flex gap-16">
+          <li><a class="text-lilla" href="program.html">Program</a></li>
+          <li>
+            <a class="text-lilla" href="events.html">Events</a>
+          </li>
+        </ul>
+        <div class="mr-3 flex flex-wrap">
+          <button class="subnavbtn2 peer text-lilla">Om os</button>
+          <img src="/img/chevron-down.svg" alt="" />
+          <div
+            class="subnav-content2 absolute mt-6 hidden gap-2 pt-2 text-lilla hover:grid peer-hover:grid"
+          >
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="h-[50vh] bg-lyslilla pb-10 pt-24">
         <div class="text-orange">
