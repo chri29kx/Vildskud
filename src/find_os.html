@@ -10,18 +10,76 @@
     />
     <title>Find Venues</title>
   </head>
+
   <body class="bg-lyscreme">
-    <main class="">
-      <section class="">
-        <img class="w-screen" src="img/kort.svg" alt="kort" />
-      </section>
-      <section class="pb-10 pt-24">
-        <div class="">
-          <h1 class="flex justify-center text-4xl text-lilla">PRAKTISK INFO</h1>
-          <br />
-          <br />
+    <header class="sticky top-0">
+      <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyscreme"></div>
+      <!-- <div class="fixed top-0 lg:visible">
+        <img class="h-20" src="/img/logo_beige1.svg" alt="" />
+      </div> -->
+      <div class="fixed top-4 left-6">
+        <a href="index.html">
+          <img class="h-16" src="/img/logo_moerklilla1.svg" alt=""
+        /></a>
+      </div>
+      <div id="mySidepanel" class="sidepanel visible lg:invisible">
+        <a href="javascript:void(0)" class="closebtn"
+          ><img src="/img/x.svg" alt=""
+        /></a>
+        <a href="program.html">Program</a>
+        <a href="events.html">Events</a>
+        <a href="find_os.html">Venues</a>
+
+        <div class="subnav">
+          <button class="subnavbtn">Om os</button>
+          <div class="subnav-content">
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
         </div>
+      </div>
+      <div id="open">
+        <button class="openbtn visible lg:invisible">
+          <img src="/img/menulilla.svg" alt="" />
+        </button>
+      </div>
+      <nav
+        id="nav_desktop"
+        class="invisible fixed top-3 right-0 mr-10 flex gap-16 lg:visible lg:p-7"
+      >
+        <ul class="flex gap-16">
+          <li><a class="text-lilla" href="program.html">Program</a></li>
+          <li>
+            <a class="text-lilla" href="events.html">Events</a>
+          </li>
+          <li>
+            <a class="text-lilla" href="find_os.html">Venues</a>
+          </li>
+        </ul>
+        <div class="mr-3 flex flex-wrap">
+          <button class="subnavbtn2 peer text-lilla">Om os</button>
+          <img src="/img/chevron-down.svg" alt="" />
+          <div
+            class="subnav-content2 absolute mt-6 hidden gap-2 pt-2 text-lilla hover:grid peer-hover:grid"
+          >
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="">
+      <div class="mt-40">
+        <h1 class="flex justify-center text-4xl text-lilla">PRAKTISK INFO</h1>
+        <br />
+        <br />
+      </div>
+      <section class="">
+        <img class="-z-20 w-screen pt-24" src="img/kort.svg" alt="kort" />
       </section>
+      <section class="pb-10 pt-24"></section>
 
       <div class="text-1xl justify-center md:flex md:gap-1">
         <h2 class="flex justify-center text-2xl text-orange">FIND VENUES</h2>
