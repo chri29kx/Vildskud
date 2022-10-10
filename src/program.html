@@ -13,7 +13,7 @@
   <body class="bg-lyscreme">
     <header class="sticky top-0">
       <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyscreme"></div>
-      <!-- <div class="fixed top-0 md:visible">
+      <!-- <div class="fixed top-0 lg:visible">
         <img class="h-20" src="/img/logo_beige1.svg" alt="" />
       </div> -->
       <div class="fixed top-4 left-6">
@@ -21,12 +21,13 @@
           <img class="h-16" src="/img/logo_moerklilla1.svg" alt=""
         /></a>
       </div>
-      <div id="mySidepanel" class="sidepanel visible md:invisible">
+      <div id="mySidepanel" class="sidepanel visible lg:invisible">
         <a href="javascript:void(0)" class="closebtn"
           ><img src="/img/x.svg" alt=""
         /></a>
         <a href="program.html">Program</a>
         <a href="events.html">Events</a>
+        <a href="find_os.html">Venues</a>
 
         <div class="subnav">
           <button class="subnavbtn">Om os</button>
@@ -38,18 +39,21 @@
         </div>
       </div>
       <div id="open">
-        <button class="openbtn visible md:invisible">
+        <button class="openbtn visible lg:invisible">
           <img src="/img/menulilla.svg" alt="" />
         </button>
       </div>
       <nav
         id="nav_desktop"
-        class="invisible fixed top-3 right-0 mr-10 flex gap-16 md:visible md:p-7"
+        class="invisible fixed top-3 right-0 mr-10 flex gap-16 lg:visible lg:p-7"
       >
         <ul class="flex gap-16">
           <li><a class="text-lilla" href="program.html">Program</a></li>
           <li>
             <a class="text-lilla" href="events.html">Events</a>
+          </li>
+          <li>
+            <a class="text-lilla" href="find_os.html">Venues</a>
           </li>
         </ul>
         <div class="mr-3 flex flex-wrap">
@@ -66,28 +70,83 @@
       </nav>
     </header>
     <main class="mt-40">
-      <h2 class="text-center text-3xl text-orange">Se program</h2>
+      <h2 class="mb-10 text-center text-3xl text-orange">Se program</h2>
       <section
         class="grid justify-center bg-[url('/img/baggrund.webp')] bg-cover text-white"
       >
-        <table class="border-spacing-3.5">
+        <h2 class="my-10 mx-5 text-3xl">Tir - 2.8.22</h2>
+        <table class="mx-5 table-auto">
           <thead class="border-b-2">
-            <tr class="">
-              <th>Titel</th>
-              <th>Tidspunkt</th>
-              <th>Lokation</th>
+            <tr class="text-left">
+              <th class="p-4">Titel</th>
+              <th class="p-4">Tidspunkt</th>
+              <th class="p-4">Lokation</th>
             </tr>
           </thead>
-          <tbody class="m-10">
-            <tr>
-              <td>What fires together wires together</td>
-              <td>16:00</td>
-              <td>ZeBU</td>
+          <tbody class="">
+            <tr class="text-left">
+              <td class="p-4">What fires together wires together</td>
+              <td class="p-4">16:00</td>
+              <td class="p-4">ZeBU</td>
             </tr>
             <tr>
-              <td>Vild med mig</td>
-              <td>18:00</td>
-              <td>VOX, Teaterhuset</td>
+              <td class="p-4">Vild med mig</td>
+              <td class="p-4">18:00</td>
+              <td class="p-4">VOX, Teaterhuset</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 class="my-10 mx-5 text-3xl">Ons - 3.8.22</h2>
+        <table class="mx-5 table-auto">
+          <thead class="border-b-2">
+            <tr class="text-left">
+              <th class="p-4">Titel</th>
+              <th class="p-4">Tidspunkt</th>
+              <th class="p-4">Lokation</th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr class="text-left">
+              <td class="p-4">What fires together wires together</td>
+              <td class="p-4">17:30</td>
+              <td class="p-4">ZeBU</td>
+            </tr>
+            <tr>
+              <td class="p-4">Vild med mig</td>
+              <td class="p-4">16:15</td>
+              <td class="p-4">VOX, Teaterhuset</td>
+            </tr>
+            <tr>
+              <td class="p-4">Vild med mig</td>
+              <td class="p-4">20:00</td>
+              <td class="p-4">VOX, Teaterhuset</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 class="my-10 mx-5 text-3xl">Tors - 4.8.22</h2>
+        <table class="mx-5 table-auto">
+          <thead class="border-b-2">
+            <tr class="text-left">
+              <th class="p-4">Titel</th>
+              <th class="p-4">Tidspunkt</th>
+              <th class="p-4">Lokation</th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr class="text-left">
+              <td class="p-4">Re-birth</td>
+              <td class="p-4">15:00</td>
+              <td class="p-4">Downunder</td>
+            </tr>
+            <tr>
+              <td class="p-4">Go Go Yo-Yoku</td>
+              <td class="p-4">16:45</td>
+              <td class="p-4">Xenon, Teaterhuset</td>
+            </tr>
+            <tr class="text-left">
+              <td class="p-4">Re-birth</td>
+              <td class="p-4">18:15</td>
+              <td class="p-4">Downunder</td>
             </tr>
           </tbody>
         </table>
