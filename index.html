@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <title>Vildskud Festival</title>
+    <script type="module" crossorigin src="./assets/main.d3dee6b0.js"></script>
+    <link rel="stylesheet" href="./assets/main.1e2878e1.css">
   </head>
   <body class="">
     <header class="sticky top-0">
@@ -20,12 +22,12 @@
       </div> -->
       <div class="fixed top-4 left-6">
         <a href="index.html">
-          <img class="h-16" src="/img/lyscreme1.svg" alt=""
+          <img class="h-16" src="./img/lyscreme1.svg" alt=""
         /></a>
       </div>
       <div id="mySidepanel" class="sidepanel visible md:invisible">
         <a href="javascript:void(0)" class="closebtn"
-          ><img src="/img/x.svg" alt=""
+          ><img src="./img/x.svg" alt=""
         /></a>
         <a href="program.html">Program</a>
         <a href="events.html">Events</a>
@@ -42,7 +44,7 @@
       </div>
       <div id="open">
         <button class="openbtn visible md:invisible">
-          <img src="/img/menu.svg" alt="" />
+          <img src="./img/menu.svg" alt="" />
         </button>
       </div>
       <nav
@@ -60,7 +62,7 @@
         </ul>
         <div class="mr-3 flex flex-wrap">
           <button class="subnavbtn2 peer text-lyscreme">Om os</button>
-          <img src="/img/chevron-down-creme.svg" alt="" />
+          <img src="./img/chevron-down-creme.svg" alt="" />
           <div
             class="subnav-content2 absolute mt-6 hidden gap-2 pt-2 text-lyscreme hover:grid peer-hover:grid"
           >
@@ -81,9 +83,9 @@
     <main>
       <section id="yoyoku">
         <div class="grid-cols-2 md:grid md:h-[100vh]">
-          <div class="bg-orange">
+          <div class="min-w-half bg-[url('/img/yoyoku.png')] bg-center">
             <!-- artist billede her -->
-            <!-- <img class="md:hidden md:h-[100vh]" src="img/yoko.jpg" alt="" /> -->
+            <img class="md:hidden md:h-[100vh]" src="img/yoko.jpg" alt="" />
           </div>
           <section class="bg-lyslilla md:col-start-2">
             <div
@@ -137,7 +139,7 @@
         </div>
       </section>
       <section id="juno">
-        <!-- <img class="object-fill md:hidden" src="img/juno.jpg" alt="" /> -->
+        <img class="object-fill md:hidden" src="img/juno.jpg" alt="" />
         <section
           class="grid-cols-2 bg-creme md:col-start-2 md:grid md:h-[100vh]"
         >
@@ -187,16 +189,18 @@
               </button>
             </div>
           </div>
-          <div class="bg-lilla"></div>
+          <div
+            class="hidden bg-[url('/img/juno.jpg')] bg-center md:block"
+          ></div>
         </section>
       </section>
       <section id="rebirth">
         <div class="grid-cols-2 md:grid md:h-[100vh]">
-          <div class="bg-lilla">
+          <div class="min-w-half bg-[url('/img/rebirth.jpg')] bg-center">
             <!-- artist billede her -->
-            <!-- <img class="md:hidden md:h-[100vh]" src="img/rebirth.jpg" alt="" /> -->
+            <img class="md:hidden md:h-[100vh]" src="img/rebirth.jpg" alt="" />
           </div>
-          <section class="bg-orange md:col-start-2">
+          <section class="bg-lilla md:col-start-2">
             <div
               class="prose mx-5 py-5 md:grid md:max-h-screen md:auto-rows-min md:grid-cols-4 md:grid-rows-3"
             >
@@ -232,12 +236,12 @@
                 class="bottom mx-5 flex justify-around pt-28 md:col-start-4 md:row-start-3 md:justify-end md:gap-8"
               >
                 <button
-                  class="bg-white px-6 py-1 text-lilla hover:bg-lyslilla md:mt-10 md:self-end md:justify-self-end"
+                  class="bg-white px-6 py-1 text-lilla hover:bg-orange md:mt-10 md:self-end md:justify-self-end"
                 >
                   Info
                 </button>
                 <button
-                  class="bg-white px-6 py-1 text-lilla hover:bg-lyslilla md:mt-10 md:self-end md:justify-self-end"
+                  class="bg-white px-6 py-1 text-lilla hover:bg-orange md:mt-10 md:self-end md:justify-self-end"
                 >
                   Billet
                 </button>
@@ -247,7 +251,7 @@
         </div>
       </section>
       <section id="vildmedmig">
-        <!-- <img class="object-fill md:hidden" src="img/vmm.png" alt="" /> -->
+        <img class="object-fill md:hidden" src="img/vmm.png" alt="" />
         <section
           class="grid-cols-2 bg-orange md:col-start-2 md:grid md:h-[100vh]"
         >
@@ -297,16 +301,16 @@
               </button>
             </div>
           </div>
-          <div class="bg-lyslilla"></div>
+          <div class="hidden bg-[url('/img/vmm.png')] bg-center md:block"></div>
         </section>
       </section>
       <section id="wf">
         <div class="grid-cols-2 md:grid md:h-[100vh]">
-          <div class="bg-lilla">
+          <div class="min-w-half bg-[url('/img/wf.png')] bg-center">
             <!-- artist billede her -->
-            <!-- <img class="md:hidden md:h-[100vh]" src="img/wf.png" alt="" /> -->
+            <img class="md:hidden md:h-[100vh]" src="img/wf.png" alt="" />
           </div>
-          <section class="bg-orange md:col-start-2">
+          <section class="bg-lyslilla md:col-start-2">
             <div
               class="prose mx-5 py-5 md:grid md:max-h-screen md:auto-rows-min md:grid-cols-4 md:grid-rows-3"
             >
@@ -315,11 +319,11 @@
               </h4>
 
               <h4
-                class="float-left text-lilla md:col-start-1 md:row-start-3 md:self-end"
+                class="float-left text-orange md:col-start-1 md:row-start-3 md:self-end"
               >
                 ZeBu
               </h4>
-              <h4 class="float-right text-lilla md:col-start-1 md:row-start-1">
+              <h4 class="float-right text-orange md:col-start-1 md:row-start-1">
                 4/5. aug
               </h4>
 
@@ -327,11 +331,13 @@
                 class="md:col-span-2 md:col-start-2 md:row-start-2 md:-m-10 md:self-center"
               >
                 <h2
-                  class="mx-auto pt-28 text-center text-3xl text-lilla sm:text-4xl md:pt-2 md:text-5xl"
+                  class="mx-auto pt-28 text-center text-3xl text-orange sm:text-4xl md:pt-2 md:text-5xl"
                 >
                   WHAT FIRES TOGETHER WIRES TOGETHER
                 </h2>
-                <p class="text-center text-base text-lilla md:mx-10 lg:text-xl">
+                <p
+                  class="text-center text-base text-orange md:mx-10 lg:text-xl"
+                >
                   “What Fires Together Wires Together” eksperimenterer i
                   spændingsfeltet mellem dans/bevægelse og naturvidenskab.
                 </p>
@@ -340,12 +346,12 @@
                 class="bottom mx-5 flex justify-around pt-28 md:col-start-4 md:row-start-3 md:justify-end md:gap-8"
               >
                 <button
-                  class="bg-creme px-6 py-1 text-lilla hover:bg-lyslilla md:mt-10 md:self-end md:justify-self-end"
+                  class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla md:mt-10 md:self-end md:justify-self-end"
                 >
                   Info
                 </button>
                 <button
-                  class="bg-creme px-6 py-1 text-lilla hover:bg-lyslilla md:mt-10 md:self-end md:justify-self-end"
+                  class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla md:mt-10 md:self-end md:justify-self-end"
                 >
                   Billet
                 </button>
@@ -355,7 +361,7 @@
         </div>
       </section>
       <section id="mand">
-        <!-- <img class="object-fill md:hidden" src="img/mand.png" alt="" /> -->
+        <img class="object-fill md:hidden" src="img/mand.png" alt="" />
         <section
           class="grid-cols-2 bg-creme md:col-start-2 md:grid md:h-[100vh]"
         >
@@ -403,7 +409,9 @@
               </button>
             </div>
           </div>
-          <div class="bg-lilla"></div>
+          <div
+            class="hidden bg-[url('/img/mand.png')] bg-center md:block"
+          ></div>
         </section>
       </section>
       <footer class="bg-lyscreme">
@@ -432,6 +440,6 @@
         </div>
       </footer>
     </main>
-    <script type="module" src="./main.js"></script>
+    
   </body>
 </html>
