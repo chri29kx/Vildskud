@@ -21,6 +21,7 @@ export default defineConfig({
         vildskud: resolve(__dirname, "src/om_vildskud.html"),
         program: resolve(__dirname, "src/program.html"),
         singleview: resolve(__dirname, "src/singleview.html"),
+        billet: resolve(__dirname, "src/billet.html"),
         // about: resolve(__dirname, "src/about.html"),
         // skriv liste med sider her
       },
