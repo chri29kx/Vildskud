@@ -4,18 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Singleview</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Archivo:wght@900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
   </head>
-  <body class="bg-lyslilla">
+  <body class="bg-lyscreme">
     <header class="sticky top-0">
       <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyslilla"></div>
-      <!-- <div class="fixed top-0 md:visible">
-        <img class="h-20" src="/img/logo_beige1.svg" alt="" />
-      </div> -->
+
       <div class="fixed top-4 left-6">
         <a href="index.html">
           <img class="h-16" src="/img/logo_moerklilla1.svg" alt=""
@@ -69,19 +67,18 @@
         </div>
       </nav>
     </header>
-
-    <main>
-      <section class="md:mx-20 md:mt-40 lg:grid lg:grid-cols-2">
-        <div>
+    <main class="mx-5 md:mx-10">
+      <section class="ld:grid-cols-2 mt-40 grid justify-items-center">
+        <div class="">
           <img src="img/yoko.webp" alt="plakat" />
         </div>
-        <div>
+        <div class="">
           <h1
             class="prose mx-8 pt-10 text-center text-4xl text-orange md:text-left md:text-6xl"
           >
             Go Go Yo - Yoku
           </h1>
-          <p class="mx-8 pt-10 text-orange">
+          <p class="mx-8 pt-10 text-xs text-orange md:text-base">
             En forestilling af KOPFKINO Find din yoyo frem og sæt dig selv fri i
             en skov. Det går godt for de tre roomies med at dele lejlighed, men
             kæft det går dårligt med at være mennesker i en nulfejlskultur, hvor
@@ -106,52 +103,56 @@
             Fotograf: Tenzin Olivia Gustenhoff & Liva Bech Holskov <br />
             Konsulent: Emil Christiansen <br />
           </p>
-          <div class="grid grid-cols-2">
-            <div class="">
-              <p class="mx-8 pt-4 text-orange">4/5. aug</p>
-              <p class="mx-8 pt-4 text-orange">Xenon - Teaterhuset</p>
-              <p class="mx-8 pt-4 text-orange">Vildskud Festival</p>
+          <div class="mx-8">
+            <div class="text-xs text-orange md:text-base">
+              <p class="pt-4 text-orange">4/5. aug</p>
+              <p class="pt-4 text-orange">Xenon - Teaterhuset</p>
+              <p class="pt-4 text-orange">Vildskud Festival</p>
             </div>
-            <div class="mx-8 grid place-content-end pt-10">
-              <button class="bg-orange px-6 py-1 text-lyslilla hover:bg-lilla">
+            <div class="">
+              <button
+                class="mt-8 bg-orange px-6 py-1 text-lyscreme hover:bg-lilla"
+              >
                 Billet
               </button>
             </div>
           </div>
         </div>
       </section>
-      <section class="">
-        <h2 class="text-4xl text-orange md:text-3xl">Spilledatoer</h2>
+      <section class="prose mt-10 md:mx-auto md:mt-40">
+        <h2 class="text-orange">SPILLEDATOER</h2>
 
-        <div class="">
-          <table class="w-2/3 text-xs md:text-base">
-            <thead class="border-b-2">
-              <tr class="">
-                <th class="p-4">Dato</th>
-                <th class="p-4">Tidspunkt</th>
-                <th class="p-4">Lokation</th>
-                <th class="p-4">Billet</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="p-4">4/8/22</td>
-                <td class="p-4">
-                  16:45 <br />
-                  20:45
-                </td>
-                <td class="p-4">VOX</td>
-                <td class="p-4"><a href="billet.html">KØB</a></td>
-              </tr>
-              <tr>
-                <td class="p-4">5/8/22</td>
-                <td class="p-4">16:45</td>
-                <td class="p-4">VOX</td>
-                <td class="p-4"><a href="billet.html">KØB</a></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <table class="text-xs text-orange md:text-base">
+          <thead class="">
+            <tr class="border-b-2 border-orange">
+              <th class="p-4 text-orange">Dag</th>
+              <th class="p-4 text-orange">Tidspunkt</th>
+              <th class="p-4 text-orange">Lokation</th>
+              <th class="p-4 text-orange">Billet</th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr class="border-lyscreme">
+              <td class="p-4 text-orange">4/8/22</td>
+              <td class="p-4">
+                16:45 <br />
+                20:45
+              </td>
+              <td class="p-4">VOX</td>
+              <td class="p-4">
+                <a class="text-orange" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+            <tr class="border-lyscreme">
+              <td class="p-4 text-orange">4/8/22</td>
+              <td class="p-4">16:45</td>
+              <td class="p-4">VOX</td>
+              <td class="p-4">
+                <a class="text-orange" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
     <footer class="bg-lyscreme">
