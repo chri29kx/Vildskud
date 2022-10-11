@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Archivo:wght@900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-lyscreme">
+    <header class="sticky top-0">
+      <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyslilla"></div>
+      <!-- <div class="fixed top-0 md:visible">
+        <img class="h-20" src="/img/logo_beige1.svg" alt="" />
+      </div> -->
+      <div class="fixed top-4 left-6">
+        <a href="index.html">
+          <img class="h-16" src="/img/logo_moerklilla1.svg" alt=""
+        /></a>
+      </div>
+      <div id="mySidepanel" class="sidepanel visible md:invisible">
+        <a href="javascript:void(0)" class="closebtn"
+          ><img src="/img/x.svg" alt=""
+        /></a>
+        <a href="program.html">Program</a>
+        <a href="events.html">Events</a>
+        <a href="find_os.html">Venues</a>
+
+        <div class="subnav">
+          <button class="subnavbtn">Om os</button>
+          <div class="subnav-content">
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </div>
+      <div id="open">
+        <button class="openbtn visible md:invisible">
+          <img src="/img/menulilla.svg" alt="" />
+        </button>
+      </div>
+      <nav
+        id="nav_desktop"
+        class="invisible fixed top-3 right-0 mr-10 flex gap-16 md:visible md:p-7"
+      >
+        <ul class="flex gap-16">
+          <li><a class="text-lilla" href="program.html">Program</a></li>
+          <li>
+            <a class="text-lilla" href="events.html">Events</a>
+          </li>
+          <li>
+            <a class="text-lilla" href="find_os.html">Venues</a>
+          </li>
+        </ul>
+        <div class="mr-3 flex flex-wrap">
+          <button class="subnavbtn2 peer text-lilla">Om os</button>
+          <img src="/img/chevron-down.svg" alt="" />
+          <div
+            class="subnav-content2 absolute mt-6 hidden gap-2 pt-2 text-lilla hover:grid peer-hover:grid"
+          >
+            <a href="om_vaermed.html">Vær med</a>
+            <a href="om_kontakt.html">Kontakt</a>
+            <a href="om_vildskud.html">Om Vildskud</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="prose mx-5 md:mx-auto">
+      <section class="">
+        <h2 class="mt-40 text-4xl text-lilla">KØB OG RESERVER</h2>
+        <p class="text-lilla">
+          Nedenunder kan du købe de forskellige slags billetter. Du skal dog
+          være opmærksom på at du SKAL reservere en pladsbillet efterfølgende.
+          Har du allerede købt en billet?
+        </p>
+        <p class="text-lilla">I så fald reserver din plads her.</p>
+        <button class="bg-lilla px-6 py-1 text-lyscreme hover:bg-orange">
+          Reserver plads
+        </button>
+      </section>
+      <section>
+        <h2 class="text-lilla">ENDAGSBILLET</h2>
+        <p class="text-lilla">
+          Køb en endagsbillet og få adgang til alle forestillinger den dag.
+        </p>
+        <table class="border-spacing-0">
+          <thead class="border-b-2">
+            <tr class="">
+              <th class="p-4 text-lilla">Dag</th>
+
+              <th class="p-4 text-right text-lilla">Pris: 120 DKK</th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr class="">
+              <td class="p-4 text-lilla">Tirsdag d. 2</td>
+
+              <td class="p-4 text-right">
+                <a class="pr-4 text-lilla" href="">KØB</a
+                ><a class="text-lilla" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+            <tr class="">
+              <td class="p-4 text-lilla">Onsdag d. 3</td>
+
+              <td class="p-4 text-right">
+                <a class="pr-4 text-lilla" href="">KØB</a
+                ><a class="text-lilla" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+            <tr class="">
+              <td class="p-4 text-lilla">Torsdag d. 4</td>
+
+              <td class="p-4 text-right">
+                <a class="pr-4 text-lilla" href="">KØB</a
+                ><a class="text-lilla" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+            <tr class="">
+              <td class="p-4 text-lilla">Fredag d. 5</td>
+
+              <td class="p-4 text-right">
+                <a class="pr-4 text-lilla" href="">KØB</a
+                ><a class="text-lilla" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+            <tr class="">
+              <td class="p-4 text-lilla">Lørdag d. 6</td>
+
+              <td class="p-4 text-right">
+                <a class="pr-4 text-lilla" href="">KØB</a
+                ><a class="text-lilla" href="program.html">TIDSPLAN</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section></section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
