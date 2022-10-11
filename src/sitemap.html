@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Archivo:wght@900&display=swap"
       rel="stylesheet"
     />
-    <title>Find Venues</title>
   </head>
-
   <body class="bg-lyscreme">
     <header class="sticky top-0">
-      <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyscreme"></div>
-      <!-- <div class="fixed top-0 lg:visible">
+      <div id="stickyhead" class="sticky top-0 hidden h-24 bg-lyslilla"></div>
+      <!-- <div class="fixed top-0 md:visible">
         <img class="h-20" src="/img/logo_beige1.svg" alt="" />
       </div> -->
       <div class="fixed top-4 left-6">
@@ -22,7 +21,7 @@
           <img class="h-16" src="/img/logo_moerklilla1.svg" alt=""
         /></a>
       </div>
-      <div id="mySidepanel" class="sidepanel visible lg:invisible">
+      <div id="mySidepanel" class="sidepanel visible md:invisible">
         <a href="javascript:void(0)" class="closebtn"
           ><img src="/img/x.svg" alt=""
         /></a>
@@ -40,13 +39,13 @@
         </div>
       </div>
       <div id="open">
-        <button class="openbtn visible lg:invisible">
+        <button class="openbtn visible md:invisible">
           <img src="/img/menulilla.svg" alt="" />
         </button>
       </div>
       <nav
         id="nav_desktop"
-        class="invisible fixed top-3 right-0 mr-10 flex gap-16 lg:visible lg:p-7"
+        class="invisible fixed top-3 right-0 mr-10 flex gap-16 md:visible md:p-7"
       >
         <ul class="flex gap-16">
           <li><a class="text-lilla" href="program.html">Program</a></li>
@@ -70,59 +69,54 @@
         </div>
       </nav>
     </header>
-    <main class="">
-      <div class="mt-40">
-        <h1 class="flex justify-center text-4xl text-lilla">PRAKTISK INFO</h1>
-        <br />
-        <br />
-      </div>
-      <section class="">
-        <img
-          class="-z-20 h-screen w-screen pt-24"
-          src="img/kort.svg"
-          alt="kort"
-        />
-      </section>
-      <section class="md:pb-10 md:pt-24"></section>
+    <main class="prose mx-5 flex flex-col pt-40 md:mx-auto">
+      <li>
+        <a href="index.html">Index</a>
+      </li>
+      <ul>
+        <li>
+          <a href="billet.html">Billet</a>
+        </li>
+        <li>
+          <a href="singleview.html">Info</a>
+        </li>
+      </ul>
+      <li>
+        <a href="program.html">Program</a>
+      </li>
 
-      <div class="text-1xl justify-center md:flex md:gap-1">
-        <h2 class="flex justify-center text-2xl text-orange">FIND VENUES</h2>
-      </div>
-      <section
-        class="mx-7 gap-10 md:grid-cols-3 md:place-items-center lg:grid lg:h-96"
-      >
-        <div class="prose pt-10">
-          <h2 class="text-orange">1. Zebu</h2>
-          <p class="text-lilla">
-            Adresse: Øresundsvej 4 & 8 <br />
-            2300 København S <br />
-            TLF: 71 99 88 77 <br />
-            Mail: jc@zebu.nu <br />
-          </p>
-        </div>
+      <li>
+        <a href="events.html">Events</a>
+      </li>
+      <ul>
+        <li>
+          <a href="program.html">Program</a>
+        </li>
 
-        <div class="prose pt-10">
-          <h2 class="text-orange">2 / 3. Teaterhuset - VOX / Xenon</h2>
-          <p class="text-lilla">
-            Adresse: Rådhusstræde 13 <br />
-            1466 København <br />
-            TLF: 60 51 45 14 <br />
-            Mail: projekt@teater-huset.dk <br />
-          </p>
-        </div>
+        <li>
+          <a href="singleview.html">Info</a>
+        </li>
+      </ul>
+      <li>
+        <a href="find_os.html">Venues</a>
+      </li>
 
-        <div class="prose pt-10">
-          <h2 class="text-orange">4. Down Under</h2>
-          <p class="text-lilla">
-            Adresse: Vandkunsten 5 <br />
-            1467 København <br />
-            TLF:70 23 21 10 <br />
-            Mail: info@copenhagendowntown.com <br />
-          </p>
-        </div>
-      </section>
+      <li>
+        <a href="#">om os</a>
+      </li>
+      <ul>
+        <li>
+          <a href="om_vaermed.html">Vær med</a>
+        </li>
+        <li>
+          <a href="om_kontakt.html">Kontakt</a>
+        </li>
+        <li>
+          <a href="om_vildskud.html">Om Vildskud</a>
+        </li>
+      </ul>
     </main>
-    <footer class="bg-lyslilla">
+    <footer class="bg-lyscreme">
       <div
         class="mx-8 items-center pt-10 text-lilla lg:mx-40 lg:grid lg:grid-cols-3"
       >
@@ -183,7 +177,6 @@
         </div>
       </div>
     </footer>
-
     <script type="module" src="./main.js"></script>
   </body>
 </html>

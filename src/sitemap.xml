@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.example.com/</loc>
+
+      <lastmod>2005-01-01</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/index.html</loc>
+   </url>
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/program.html</loc>
+   </url>
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/events.html</loc>
+   </url>
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/find_os.html</loc>
+   </url>
+
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/om_vaermed.html</loc>
+   </url>
+
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/om_kontakt.html</loc>
+   </url>
+
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/om_vildskud.html</loc>
+   </url>
+
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/billet.html</loc>
+   </url>
+
+   <url>
+      <loc>http://louiselyngsoethomsen.dk/kea/vildskud/singleview.html</loc>
+   </url>
+  
+</urlset>
