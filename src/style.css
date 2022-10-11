@@ -125,3 +125,19 @@
     display: block;
   }
 }
+
+@layer {
+  .bg {
+    background-color: rgb(124, 58, 237);
+    background-image: radial-gradient(
+        at 25% 28%,
+        rgb(251, 146, 60) 0,
+        transparent 60%
+      ),
+      radial-gradient(at 5% 17%, rgb(124, 58, 237) 0, transparent 85%),
+      radial-gradient(at 43% 57%, rgb(147, 51, 234) 0, transparent 49%),
+      radial-gradient(at 2% 90%, rgb(232, 121, 249) 0, transparent 47%),
+      radial-gradient(at 74% 84%, rgb(124, 58, 237) 0, transparent 48%),
+      radial-gradient(at 81% 24%, rgb(245, 158, 11) 0, transparent 42%);
+  }
+}
