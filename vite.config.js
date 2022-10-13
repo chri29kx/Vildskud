@@ -22,6 +22,8 @@ export default defineConfig({
         program: resolve(__dirname, "src/program.html"),
         singleview: resolve(__dirname, "src/singleview.html"),
         billet: resolve(__dirname, "src/billet.html"),
+        sitemap: resolve(__dirname, "src/sitemap.html"),
+        xml: resolve(__dirname, "src/sitemap.xml"),
         // about: resolve(__dirname, "src/about.html"),
         // skriv liste med sider her
       },
